@@ -106,12 +106,8 @@ nav ul li a:hover::after{
 
 .about-col-1{
     flex-basis: 35%;
-    transition: 0.5s;
 }
 
-.about-col-1:hover {
-    transform: scale(0.9);
-}
 .about-col-1 img {
 
     width: 90%;
