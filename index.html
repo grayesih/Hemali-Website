@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/662d1456ef.js" crossorigin="anonymous"></script>
+    <title>Hemali</title>
+</head>
+<body>
+
+
+<!-- ----If Nav stops working, put it inside the header id, and remove the padding from nav element in css -->
+    <nav>
+        <img src="" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+
+    <div id="header">
+        <div class="container">
+
+            <div class="header-text">
+                <h1>Hi, <br>I'm <span>Hemali</span></h1>
+                <p>FASHION MODEL</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-- about me -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1 .hover-effect ">
+                    <img src="images/aboutme.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nulla repellendus dolores nisi voluptatibus, recusandae ut provident, hic rerum itaque, culpa ad exercitationem minima consequatur sunt quas in magni deserunt?Lorem ipsum dolor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae dolores velit saepe architecto, odio molestias voluptatum, exercitationem vitae, veniam quas voluptas nulla vero. Officia consequatur optio provident laboriosam quasi Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima corrupti adipisci, sint dolore tempora magni vitae sunt eos nostrum similique placeat? Optio porro atque, aliquid libero vitae eaque culpa?<p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('prices')">Prices</p>
+                    <p class="tab-links" onclick="opentab('measurements')">Measurements</p>
+                    <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+                </div>
+
+                <div class="tab-contents active-tab" id="prices">
+                    <ul>
+                        <li><span>Editorial</span><br>$100/hr</li>
+                        <li><span>Bridal</span><br>$150/hr</li>
+                        <li><span>Music video</span><br>$200/hr</li>
+                        <li><span>Runway & Brand Work</span><br>$500/hr</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="measurements">
+                    <ul class="measurements-list">
+                        <li><span>Height</span><br>5'8</li>
+                        <li><span>Waist</span><br>27in</li>
+                        <li><span>Bust</span><br>32in</li>
+                        <li><span>Hip</span><br>35in</li>
+                        <li><span>Hair</span><br>Black</li>
+                        <li><span>Dress Size</span><br>4</li>
+                        <li><span>Eyes</span><br>Dark Brown</li>
+                        <li><span>Shoe Size</span><br>9/10</li>
+                </div>
+
+        
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- -------Image Grid----------->
+
+<div id="portfolio">
+<h1 class="sub-title">Gallery</h1>
+<div class="gallery">
+    <div class="hover-effect">
+        <img src="images/img-1.JPEG">
+    </div>
+
+    <div class="v-stretch hover-effect">
+        <img src="images/img-2.jpeg">
+    </div>
+    <div class="h-stretch hover-effect">
+        <img src="images/img-3.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-4.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-5.jpeg">
+    </div>
+    <div class="v-stretch hover-effect">
+        <img src="images/img-6.jpeg">
+    </div>
+    <div class="big-strech hover-effect">
+        <img src="images/img-7.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-8.jpeg">
+    </div>
+    <div class="h-strech hover-effect">
+        <img src="images/img-9.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-10.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-11.JPG">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-12.JPEG">
+    </div>
+    <div class="v-stretch hover-effect">
+        <img src="images/img-13.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-14.jpeg">
+    </div>
+    <div class="big-strech hover-effect">
+        <img src="images/img-15.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-16.jpeg">
+    </div>
+    <div class="h-strech hover-effect">
+        <img src="images/img-17.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-18.jpeg">
+    </div>
+    <div class="big-strech hover-effect">
+        <img src="images/img-19.jpeg">
+    </div>
+    
+    <div class="hover-effect">
+        <img src="images/img-20.jpeg">
+    </div>
+    <div class="hover-effect">
+        <img src="images/img-21.jpeg">
+    </div>
+    <div class="h-stretch hover-effect">
+        <img src="images/img-22.jpeg">
+    </div>
+    
+</div>
+
+</div>
+
+
+
+<!-- ----------Contanct ----------- -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <a href="mailto:contact@example.com" class="contact"><i class="fa-sharp fa-solid fa-envelope"></i>contact@example.com</a>
+                
+                <a href="Hemali-Portfolio.pdf" download class="btn btn2">Download Portfolio</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; 2022. Made with <i class="fa-solid fa-heart"></i> by Hemali Patel</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    
+</script>
+
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxUk6JAqa0o5-s9hi3x3op1vKOqgkAuEZsVAw0fhR5uyA2yC98zOoV5E-jZiomFfnTvuQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
